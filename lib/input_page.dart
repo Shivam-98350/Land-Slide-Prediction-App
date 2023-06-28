@@ -214,40 +214,7 @@ class _InputPageState extends State<InputPage> {
                   },
                 ),
                 SizedBox(height: MediaQuery.of(context).size.height * 0.2),
-                // NeumorphicButton(
-                //   padding:
-                //       const EdgeInsets.symmetric(horizontal: 88, vertical: 16),
-                //   style: NeumorphicStyle(
-                //     color: Colors.yellowAccent,
-                //     boxShape:
-                //         NeumorphicBoxShape.roundRect(BorderRadius.circular(25)),
-                //   ),
-                //   onPressed: () async {
-                //     if (_formKey.currentState!.validate()) {
-                //       String prediction = await _predictLandslide();
-                //       _navigateToPredictionPage(prediction);
-                //     }
-                //   },
-                //   child: const Text(
-                //     'Predict',
-                //     style: TextStyle(
-                //       color: Colors.black,
-                //       fontSize: 18,
-                //       fontStyle: FontStyle.italic,
-                //       fontWeight: FontWeight.bold,
-                //     ),
-                //   ),
-                // ),
-                // ElevatedButton(
-                //   onPressed: () async {
-                //     if (_formKey.currentState!.validate()) {
-                //       String prediction = await _predictLandslide();
-                //       _navigateToPredictionPage(prediction);
-                //     }
-                //   },
-                //   child: const Text('Predict'),
-                // ),
-                ElevatedButton(
+                   ElevatedButton(
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {
                       String prediction = await _predictLandslide();
