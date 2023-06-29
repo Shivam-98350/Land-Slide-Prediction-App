@@ -20,7 +20,7 @@ class _InputPageState extends State<InputPage> {
 
   Future<String> _predictLandslide() async {
     String url =
-        'http://192.168.43.206:5000/'; // Replace with your actual model's endpoint URL
+        'http://shivamkumar0raj.pythonanywhere.com/'; // Replace with your actual model's endpoint URL
 
     Map<String, dynamic> inputData = {
       'id':double.parse(_rainfallController.text),
